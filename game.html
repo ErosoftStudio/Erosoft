@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Game — erosoft</title>
+<meta name="description" content="Our current project: a first-person puzzle game. Watch the trailer and download the build.">
+<link rel="icon" type="image/png" href="assets/img/logo-rose.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo-white.png" alt="erosoft mark">
+      <span>eros<b>soft</b></span>
+    </a>
+    <button class="burger" aria-expanded="false" aria-label="Toggle menu">menu</button>
+    <nav class="links">
+      <a class="item" href="index.html">Home</a>
+      <a class="item active" href="game.html">Game</a>
+      <a class="item" href="studio.html">Studio</a>
+      <a class="item" href="blog.html">Dev Blog</a>
+    </nav>
+  </div>
+</header>
+
+
+<section class="gamehero">
+  <div class="bg"><img src="assets/img/shot-living.jpg" alt=""></div>
+  <div class="wrap">
+    <p class="eyebrow"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0 L14 10 L24 12 L14 14 L12 24 L10 14 L0 12 L10 10 Z" fill="currentColor"/></svg>Now in development</p>
+    <h1 class="title">Good <b>Boy</b></h1>
+    <p class="pitch"><!-- [PLACEHOLDER — swap for the official pitch from the mariopackage page] -->
+    You are the dog. Explore a cozy apartment from a corgi's-eye view, poke at
+    everything within reach, and figure out what your human actually wants &mdash;
+    or don't, and see what happens.</p>
+    <div class="cta-row">
+      <a class="btn" href="#download"><span class="k">&#8681;</span> Download</a>
+      <a class="btn ghost" href="#trailer">Watch trailer</a>
+    </div>
+    <div class="badge-row">
+      <span class="badge">Dog simulator</span>
+      <span class="badge">Cozy</span>
+      <span class="badge">Immersive sim</span>
+      <span class="badge">PC</span>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="trailer">
+  <div class="wrap">
+    <p class="eyebrow reveal"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0 L14 10 L24 12 L14 14 L12 24 L10 14 L0 12 L10 10 Z" fill="currentColor"/></svg>Trailer</p>
+    <div class="videoframe hud reveal">
+      <!-- Drop trailer at assets/video/trailer.mp4 and uncomment: -->
+      <!-- <video src="assets/video/trailer.mp4" poster="assets/img/shot-wide.jpg" preload="metadata"></video> -->
+      <img src="assets/img/shot-wide.jpg" alt="Trailer placeholder — Good Boy living room">
+      <button class="play" aria-label="Play trailer">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow reveal"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0 L14 10 L24 12 L14 14 L12 24 L10 14 L0 12 L10 10 Z" fill="currentColor"/></svg>The world</p>
+    <h2 class="reveal">The apartment is yours.</h2>
+    <p class="reveal"><!-- [PLACEHOLDER — paragraph 1, official copy] -->
+    Every room is packed with things a dog can interact with &mdash; a mini fridge that
+    opens, a bean bag with your name on it, a coffee table at exactly tail height.
+    If it looks like you can mess with it, you probably can.</p>
+    <p class="reveal"><!-- [PLACEHOLDER — paragraph 2, official copy] -->
+    No waypoints, no fail states. Just a small dog, a big apartment, and an owner
+    who really should have put that soda can somewhere higher.</p>
+
+    <div class="shots" style="margin-top:38px">
+      <div class="screen hud reveal">
+        <img src="assets/img/shot-hallway.jpg" alt="A corgi trotting past a pink bean bag toward a door">
+        <div class="scan"></div><span class="chip">&#10022; shot_01</span>
+      </div>
+      <div class="screen hud reveal">
+        <img src="assets/img/shot-fridge.jpg" alt="The corgi inspecting an open mini fridge full of soda cans">
+        <div class="scan"></div><span class="chip">&#10022; shot_02</span>
+      </div>
+      <div class="screen hud reveal">
+        <img src="assets/img/shot-menu.jpg" alt="Good Boy main menu — the owner on the couch, seen from dog height">
+        <div class="scan"></div><span class="chip">&#10022; shot_03</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dlband" id="download">
+  <div class="wrap">
+    <p class="eyebrow" style="justify-content:center"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0 L14 10 L24 12 L14 14 L12 24 L10 14 L0 12 L10 10 Z" fill="currentColor"/></svg>Get the game</p>
+    <h2>Play the current build.</h2>
+    <p style="margin:0 auto;max-width:52ch">Free while in development. Windows for now &mdash; more platforms when it's right.</p>
+    <div class="stores">
+      <a class="btn" href="#"><span class="k">&#8681;</span> Download &mdash; itch.io</a>
+      <a class="btn ghost" href="#">Wishlist on Steam</a>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div class="fbrand">
+        <img src="assets/img/logo-white.png" alt="">
+        <span>eros<b>soft</b></span>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="game.html">Game</a>
+        <a href="studio.html">Studio</a>
+        <a href="blog.html">Dev Blog</a>
+      </nav>
+    </div>
+    <div class="legal">
+      <span>&copy; 2026 erosoft &mdash; independent game studio</span>
+      <span>soft machines, hard problems &#10022;</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
